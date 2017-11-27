@@ -51,7 +51,6 @@ div.imglist>img {
 }
 
 .header {
-    height: 250px;
     overflow: hidden;
     margin-bottom: 10px;
 }
@@ -60,8 +59,8 @@ div.imglist>img {
     background-image: url(../img/5.jpg);
     width: 25vw;
     height: 25vw;
-    background-size: 400px;
-    background-position-x: -80px;
+    background-size: 33vw;
+    background-position-x: -2vw;
     /* background-position-y: 10px; */
     border-radius: 50%;
     float: left;
