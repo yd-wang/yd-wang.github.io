@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.imglist>img {
+    width: 30%;
+    /* border-bottom-color: black;
+    border-width: 3px;
+    border-style: dashed; */
+    -webkit-transition: width 2s;
+    transition: width 0.5s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} */
+
+.imglist {
+    text-align: center;
+    /* 
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+     */
+    padding: 30px 10px 30px 10px;
+}
+
+.container {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #c6c6ff;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+
+.header {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.photo {
+    background-image: url(../img/5.jpg);
+    width: 25vw;
+    height: 25vw;
+    background-size: 400px;
+    background-position-x: -80px;
+    /* background-position-y: 10px; */
+    border-radius: 50%;
+    float: left;
+}
+
+.name {
+    font-size: 2.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-blue:hover {
+    background-color: #3b4991;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+}
